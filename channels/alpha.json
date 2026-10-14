@@ -1,11 +1,11 @@
 {
-  "version": "2.0.0-alpha.2",
-  "notes": "# AssetHub 2.0.0-alpha.2\r\n\r\n- 修复：安装包附带模型转换程序依赖的 Microsoft VC++ 运行库，改善未安装开发工具的电脑上的模型预览启动。\r\n- 改进：安装更新前额外检查扫描后台任务是否已结束，覆盖取消扫描后仍在收尾的情况。\r\n- alpha.1 用户可通过设置 → 关于检查并下载本更新。未进行真实跨版本安装与新电脑验收。\r\n\r\n---\r\n\r\n# AssetHub 2.0.0-alpha.1\r\n\r\n首个 Windows x64 Alpha 测试包，由 Airkria 维护。\r\n\r\n## 新增与改进\r\n\r\n- Alpha 自动检查、签名更新下载与安装前保存/扫描/模型转换检查。\r\n- 安装包自带模型转换程序。\r\n- 普通详情与自适配详情支持窄区域排列，说明栏自动移到下方。\r\n- 板块预设图标与 PNG/WebP/ICO 导入。\r\n- 放大模型右侧贴图检查、原文件定位、内嵌贴图导出与刷新。\r\n- 关于、作者联系方式、开源依赖查询。\r\n- 元数据保存状态、失败重试、备份与恢复。\r\n\r\n## 已知限制\r\n\r\n多人同时写入共享标注、持久化离线草稿、完整文件操作恢复、筛选下稳定的资产包识别及完整物理目录大小统计仍待完善。请先使用素材副本或非关键目录。\r\n仅支持 Windows x64；Windows 发布者证书签名尚未提供。反馈可使用 GitHub Issues 或邮箱 airkria915793472@gmail.com。\r\n",
-  "pub_date": "2026-10-14T09:34:11.738Z",
+  "version": "2.0.0-alpha.3",
+  "notes": "# AssetHub 2.0.0-alpha.3\r\n\r\n[新手配图教程：从安装到第一次浏览](https://github.com/Airkria/AssetHub-Releases/blob/main/docs/QUICK_START.md)\r\n\r\n## 新增与改进\r\n\r\n- 首次安装自动打开三步新手引导：选择工作范畴、连接已有素材文件夹、确认并开始使用。\r\n- 提供设计、资产管理、游戏相关、视频工作和自由探索五类预设，自动配置名称、图标、布局与预览选项。\r\n- 板块可优先展示相关类型，并随时切换为全部文件；完整索引仍用于素材包和配套预览匹配。\r\n- 支持跳过与从设置重新打开引导。已有用户升级保留原板块和全局规则。\r\n- 配置损坏或不可读时显示错误并保留原文件，避免误判为全新安装。\r\n\r\n本版未包含视频或动图的鼠标滑动预览。视频播放仍取决于文件编码；部分设计源文件可管理但不能直接预览。\r\n已完成本机隔离环境中的引导、真实目录选择、扫描与异常场景检查；这不等同于在一台全新 Windows 电脑上安装验收，也不代替真实跨版本更新测试。\r\n\r\n---\r\n\r\n# AssetHub 2.0.0-alpha.2\r\n\r\n- 修复：安装包附带模型转换程序依赖的 Microsoft VC++ 运行库，改善未安装开发工具的电脑上的模型预览启动。\r\n- 改进：安装更新前额外检查扫描后台任务是否已结束，覆盖取消扫描后仍在收尾的情况。\r\n- alpha.1 用户可通过设置 → 关于检查并下载本更新。未进行真实跨版本安装与新电脑验收。\r\n\r\n---\r\n\r\n# AssetHub 2.0.0-alpha.1\r\n\r\n首个 Windows x64 Alpha 测试包，由 Airkria 维护。\r\n\r\n## 新增与改进\r\n\r\n- Alpha 自动检查、签名更新下载与安装前保存/扫描/模型转换检查。\r\n- 安装包自带模型转换程序。\r\n- 普通详情与自适配详情支持窄区域排列，说明栏自动移到下方。\r\n- 板块预设图标与 PNG/WebP/ICO 导入。\r\n- 放大模型右侧贴图检查、原文件定位、内嵌贴图导出与刷新。\r\n- 关于、作者联系方式、开源依赖查询。\r\n- 元数据保存状态、失败重试、备份与恢复。\r\n\r\n## 已知限制\r\n\r\n多人同时写入共享标注、持久化离线草稿、完整文件操作恢复、筛选下稳定的资产包识别及完整物理目录大小统计仍待完善。请先使用素材副本或非关键目录。\r\n仅支持 Windows x64；Windows 发布者证书签名尚未提供。反馈可使用 GitHub Issues 或邮箱 airkria915793472@gmail.com。\r\n",
+  "pub_date": "2026-10-14T15:25:14.012Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaDY3eDVDSFVhdlJtd05nSE4rVkJTV2Nvb29VTmY1RFpldDJCVlc4OGw5Qis5QSt3VEt5SnFXaEMva0oyWmFvNzRLMjVDNUhhZ0YyZkVEdVZqOFNlS0lPOWQvc1BMQWdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTcwNDUxCWZpbGU6QXNzZXRIdWJfMi4wLjAtYWxwaGEuMl94NjQtc2V0dXAuZXhlCXZlcnNpb246Mi4wLjAtYWxwaGEuMgpSOG5HRHY4cTBRVERQUFpsK2tCRWEyWjJQQlVkdHprYWdheEFINk5mM0tuOU52VjhYSVNFbTNINjc3TWhyUm01RjVjTWNlRVB0dVBxa2IyWmM5NnpEUT09Cg==",
-      "url": "https://github.com/Airkria/AssetHub-Releases/releases/download/v2.0.0-alpha.2/AssetHub_2.0.0-alpha.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaDY3eDVDSFVhdllBaHl6YlR1cVB2Qy9FYUlPN2hZZ3FzWnFVbXIrc2JYZ0doOWJBNzNXVVlUS2NHSnYrZ016SWxDREJhQk9yNjZ5N0pOMWJEczJrTzEwN3k0amx6Y2dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTkxNDMzCWZpbGU6QXNzZXRIdWJfMi4wLjAtYWxwaGEuM194NjQtc2V0dXAuZXhlCXZlcnNpb246Mi4wLjAtYWxwaGEuMwpvaCtnUFNjYnkyckF3UjVCSy9TRUw4bHdraU0zbGNva2Z2YWRLUjUxSWFYanFqT2pkemlnV2JWK3ZORTRWTUNBQklOMkFmQUN0dFpQZkZNVlhhU3JDdz09Cg==",
+      "url": "https://github.com/Airkria/AssetHub-Releases/releases/download/v2.0.0-alpha.3/AssetHub_2.0.0-alpha.3_x64-setup.exe"
     }
   }
 }

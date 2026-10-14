@@ -2,12 +2,12 @@
 
 **面向个人、工作室和小型团队的素材管理工具。** 快速预览、搜索、标注与拖出素材，保留已有文件夹结构。
 
-[English](README.en.md) · [下载 Alpha](https://github.com/Airkria/AssetHub-Releases/releases/tag/v2.0.0-alpha.1) · [报告问题](https://github.com/Airkria/AssetHub-Releases/issues/new/choose)
+[English](README.en.md) · [下载 Alpha](https://github.com/Airkria/AssetHub-Releases/releases/tag/v2.0.0-alpha.2) · [报告问题](https://github.com/Airkria/AssetHub-Releases/issues/new/choose)
 
 ## 下载与安装
 
-- 当前版本：**2.0.0-alpha.1**，Windows 10/11 x64。
-- 在 Releases 页面下载 `AssetHub_2.0.0-alpha.1_x64-setup.exe` 并安装；同一安装包也可以复制到组内 NAS 分发。
+- 当前版本：**2.0.0-alpha.2**，Windows 10/11 x64。
+- 在 Releases 页面下载 `AssetHub_2.0.0-alpha.2_x64-setup.exe` 并安装；同一安装包也可以复制到组内 NAS 分发。
 - 安装包包含模型转换程序，无需配置 Rust、Node.js 或开发目录。
 - 首次运行选择一个小型素材目录，在设置中添加板块、选择布局并扫描。
 - 首次安装如缺少 Microsoft WebView2，安装器会联网下载运行时。

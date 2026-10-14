@@ -2,11 +2,13 @@
 
 An asset manager for individuals, studios and small teams: preview, search, annotate and drag assets while keeping your existing folder structure.
 
-[中文](README.md) · [Download Alpha](https://github.com/Airkria/AssetHub-Releases/releases/tag/v2.0.0-alpha.2) · [Report an issue](https://github.com/Airkria/AssetHub-Releases/issues/new/choose)
+[中文](README.md) · [Download Alpha](https://github.com/Airkria/AssetHub-Releases/releases/tag/v2.0.0-alpha.3) · [Illustrated quick start (Chinese)](docs/QUICK_START.md) · [Report an issue](https://github.com/Airkria/AssetHub-Releases/issues/new/choose)
+
+> **Current release: 2.0.0-alpha.3.** The new three-step setup and five work presets are covered in the [Chinese illustrated guide](docs/QUICK_START.md). Screenshots come from an isolated instance of the actual desktop app.
 
 ## Getting started
 
-**2.0.0-alpha.2 — Windows 10/11 x64.** Download the setup executable from Releases, install it, then add a small asset folder in Settings and scan it. The installer includes the model converter. WebView2 may require an Internet connection on first installation.
+**Public release: 2.0.0-alpha.3 — Windows 10/11 x64.** Download the setup executable from Releases, install it, then choose your work preset and connect a small existing asset folder in the setup wizard. Existing users keep their settings. The installer includes the model converter. WebView2 may require an Internet connection on first installation. See the [illustrated guide (Chinese)](docs/QUICK_START.md).
 
 ## Features
 

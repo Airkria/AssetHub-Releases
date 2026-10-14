@@ -2,20 +2,23 @@
 
 **面向个人、工作室和小型团队的素材管理工具。** 快速预览、搜索、标注与拖出素材，保留已有文件夹结构。
 
-[English](README.en.md) · [下载 Alpha](https://github.com/Airkria/AssetHub-Releases/releases/tag/v2.0.0-alpha.2) · [报告问题](https://github.com/Airkria/AssetHub-Releases/issues/new/choose)
+[English](README.en.md) · [下载 Alpha](https://github.com/Airkria/AssetHub-Releases/releases/tag/v2.0.0-alpha.3) · [新手配图教程](docs/QUICK_START.md) · [报告问题](https://github.com/Airkria/AssetHub-Releases/issues/new/choose)
+
+> **当前版本：2.0.0-alpha.3。** 新增三步新手引导与五类工作范畴预设，首次使用可按[中文配图教程](docs/QUICK_START.md)完成配置。教程截图来自实际桌面应用的隔离模拟环境。
 
 ## 下载与安装
 
-- 当前版本：**2.0.0-alpha.2**，Windows 10/11 x64。
-- 在 Releases 页面下载 `AssetHub_2.0.0-alpha.2_x64-setup.exe` 并安装；同一安装包也可以复制到组内 NAS 分发。
+- 当前公开版本：**2.0.0-alpha.3**，Windows 10/11 x64。
+- 在 Releases 页面下载 `AssetHub_2.0.0-alpha.3_x64-setup.exe` 并安装；同一安装包也可以复制到组内 NAS 分发。
 - 安装包包含模型转换程序，无需配置 Rust、Node.js 或开发目录。
-- 首次运行选择一个小型素材目录，在设置中添加板块、选择布局并扫描。
+- 首次运行：选择工作范畴，连接一个已有素材文件夹，确认并开始扫描。已有用户升级后保留当前配置。
 - 首次安装如缺少 Microsoft WebView2，安装器会联网下载运行时。
 
 这是 Alpha 测试版。建议先使用素材副本或非关键目录，反馈实际任务中的问题。我们不会自动重排素材目录。
 
 ## 当前能力
 
+- 五类工作范畴预设、三步引导与推荐文件类型展示。
 - 自定义板块、扫描范围、分类规则、搜索与标签。
 - 瀑布流、网格、树状、详情、详情（自适配）布局。
 - 文件夹资产包与多版本组识别、多图预览、文件/目录拖出。

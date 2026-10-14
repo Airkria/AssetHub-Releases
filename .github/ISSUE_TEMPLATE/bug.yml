@@ -1,0 +1,37 @@
+name: Bug / 问题反馈
+description: Report a reproducible issue in AssetHub Alpha.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Issues 是公开的。截图和日志请先移除保密素材、个人信息和内部路径；私密问题可联系 airkria915793472@gmail.com。"
+  - type: input
+    id: version
+    attributes:
+      label: 软件版本 / Version
+      placeholder: 2.0.0-alpha.1
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: 系统与素材位置 / OS and library location
+      placeholder: Windows 11 / local disk, NAS, mapped drive
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤 / Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: results
+    attributes:
+      label: 预期与实际结果 / Expected and actual result
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: 截图或日志 / Screenshots or logs
+      description: 可以拖入附件。请先移除私密内容。

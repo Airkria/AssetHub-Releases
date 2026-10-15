@@ -2,20 +2,22 @@
 
 An asset manager for individuals, studios and small teams: preview, search, annotate and drag assets while keeping your existing folder structure.
 
-[中文](README.md) · [Download Alpha](https://github.com/Airkria/AssetHub-Releases/releases/tag/v2.0.0-alpha.3) · [Illustrated quick start (Chinese)](docs/QUICK_START.md) · [Report an issue](https://github.com/Airkria/AssetHub-Releases/issues/new/choose)
+[中文](README.md) · [Download Alpha](https://github.com/Airkria/AssetHub-Releases/releases/tag/v2.0.0-alpha.4) · [Illustrated quick start (Chinese)](docs/QUICK_START.md) · [Report an issue](https://github.com/Airkria/AssetHub-Releases/issues/new/choose)
 
-> **Current release: 2.0.0-alpha.3.** The new three-step setup and five work presets are covered in the [Chinese illustrated guide](docs/QUICK_START.md). Screenshots come from an isolated instance of the actual desktop app.
+> **Current release: 2.0.0-alpha.4.** This release adds video/GIF hover scrubbing, a configurable video size limit and the new app icon. Setup is covered in the [Chinese illustrated guide](docs/QUICK_START.md). Screenshots come from an isolated instance of the actual desktop app.
 
 ## Getting started
 
-**Public release: 2.0.0-alpha.3 — Windows 10/11 x64.** Download the setup executable from Releases, install it, then choose your work preset and connect a small existing asset folder in the setup wizard. Existing users keep their settings. The installer includes the model converter. WebView2 may require an Internet connection on first installation. See the [illustrated guide (Chinese)](docs/QUICK_START.md).
+**Public release: 2.0.0-alpha.4 — Windows 10/11 x64.** Download the setup executable from Releases, install it, then choose your work preset and connect a small existing asset folder in the setup wizard. Existing users keep their settings. The installer includes the model converter. WebView2 may require an Internet connection on first installation. See the [illustrated guide (Chinese)](docs/QUICK_START.md).
 
 ## Features
 
 - Configurable boards, scan scopes, categories, search and tags.
 - Masonry, grid, tree, detail and adaptive detail views.
 - Folder packages, version groups, multiple previews and native drag-out.
-- Images, video and 3D previews with texture provenance and file location.
+- Responsive image detail previews, video/GIF hover scrubbing and video play/stop controls.
+- Configurable video size limit (1024 MiB by default); larger files open externally. Files below the limit may still fail to preview.
+- 3D previews with texture provenance and file location.
 - Metadata save status, retry and backup recovery.
 - Board icons, third-party notices and signed Alpha updates.
 

@@ -2,9 +2,9 @@
 
 **连接已有文件夹，开始浏览和整理素材。**
 
-适用：**2.0.0-alpha.4 · Windows 10/11 x64**
+适用：**2.0.0-alpha.5 · Windows 10/11 x64**
 
-[下载安装包](https://github.com/Airkria/AssetHub-Releases/releases/download/v2.0.0-alpha.4/AssetHub_2.0.0-alpha.4_x64-setup.exe) · [反馈问题](https://github.com/Airkria/AssetHub-Releases/issues/new/choose)
+[下载安装包](https://github.com/Airkria/AssetHub-Releases/releases/download/v2.0.0-alpha.5/AssetHub_2.0.0-alpha.5_x64-setup.exe) · [反馈问题](https://github.com/Airkria/AssetHub-Releases/issues/new/choose)
 
 ## 01 准备开始
 
@@ -15,8 +15,8 @@
 <details>
 <summary>展开 · 下载与安装步骤</summary>
 
-1. 点击上方 **「下载安装包」**，保存 `.exe` 文件。也可到[版本下载页](https://github.com/Airkria/AssetHub-Releases/releases/tag/v2.0.0-alpha.4)的 Assets（附件）中下载同名安装包。
-2. 双击 `AssetHub_2.0.0-alpha.4_x64-setup.exe`，按提示安装并打开。
+1. 点击上方 **「下载安装包」**，保存 `.exe` 文件。也可到[版本下载页](https://github.com/Airkria/AssetHub-Releases/releases/tag/v2.0.0-alpha.5)的 Assets（附件）中下载同名安装包。
+2. 双击 `AssetHub_2.0.0-alpha.5_x64-setup.exe`，按提示安装并打开。
 3. 准备一个本机小文件夹，放入几张图片副本，稍后连接它。
 
 缺少 WebView2 时，安装器会联网下载。若系统提示未知发布者，请先核对下载来源；当前安装包没有 Windows 发布者证书签名。
@@ -130,4 +130,4 @@
 
 ---
 
-作者 **Airkria** · Alpha 测试版 · [版本说明](https://github.com/Airkria/AssetHub-Releases/releases/tag/v2.0.0-alpha.4)
+作者 **Airkria** · Alpha 测试版 · [版本说明](https://github.com/Airkria/AssetHub-Releases/releases/tag/v2.0.0-alpha.5)

@@ -2,13 +2,13 @@
 
 An asset manager for individuals, studios and small teams: preview, search, annotate and drag assets while keeping your existing folder structure.
 
-[中文](README.md) · [Download Alpha](https://github.com/Airkria/AssetHub-Releases/releases/tag/v2.0.0-alpha.4) · [Illustrated quick start (Chinese)](docs/QUICK_START.md) · [Report an issue](https://github.com/Airkria/AssetHub-Releases/issues/new/choose)
+[中文](README.md) · [Download Alpha](https://github.com/Airkria/AssetHub-Releases/releases/tag/v2.0.0-alpha.5) · [Illustrated quick start (Chinese)](docs/QUICK_START.md) · [Report an issue](https://github.com/Airkria/AssetHub-Releases/issues/new/choose)
 
-> **Current release: 2.0.0-alpha.4.** This release adds video/GIF hover scrubbing, a configurable video size limit and the new app icon. Setup is covered in the [Chinese illustrated guide](docs/QUICK_START.md). Screenshots come from an isolated instance of the actual desktop app.
+> **Current release: 2.0.0-alpha.5.** This release improves NAS browsing, huge PNG previews, loading feedback and consistent covers across layouts. Setup is covered in the [Chinese illustrated guide](docs/QUICK_START.md). Screenshots come from an isolated instance of the actual desktop app.
 
 ## Getting started
 
-**Public release: 2.0.0-alpha.4 — Windows 10/11 x64.** Download the setup executable from Releases, install it, then choose your work preset and connect a small existing asset folder in the setup wizard. Existing users keep their settings. The installer includes the model converter. WebView2 may require an Internet connection on first installation. See the [illustrated guide (Chinese)](docs/QUICK_START.md).
+**Public release: 2.0.0-alpha.5 — Windows 10/11 x64.** Download the setup executable from Releases, install it, then choose your work preset and connect a small existing asset folder in the setup wizard. Existing users keep their settings. The installer includes the model converter. WebView2 may require an Internet connection on first installation. See the [illustrated guide (Chinese)](docs/QUICK_START.md).
 
 ## Features
 
@@ -25,7 +25,7 @@ An asset manager for individuals, studios and small teams: preview, search, anno
 
 Use **Settings → About → Check for updates**, or enable automatic checks at startup. Download an update, then choose to install and restart. Pending saves, scans and model conversions must finish first.
 
-This is an early test build. Try copies or non-critical assets first. Concurrent metadata editing across machines is not supported yet. Failed edits are retained only for the current session; reconnect and retry before quitting. Adaptive recognition may change under filtering, and package size represents indexed assets rather than total folder size. Custom icons are local to the machine. Model/material compatibility varies. macOS/Linux and in-app screenshot submission are not included.
+This is an early test build. Try copies or non-critical assets first. Concurrent metadata editing across machines is not supported yet. Failed edits are retained only for the current session; reconnect and retry before quitting. Package size represents indexed assets rather than total folder size. Huge non-interlaced PNG previews are limited to 2048px in detail; other huge images may still require an external viewer. Custom icons are local to the machine. Model/material compatibility varies. macOS/Linux and in-app screenshot submission are not included.
 
 The updater verifies signed artifacts. The installer does not currently have a Windows publisher certificate signature, so Windows may show an unknown publisher warning.
 

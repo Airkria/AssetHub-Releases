@@ -2,14 +2,14 @@
 
 **面向个人、工作室和小型团队的素材管理工具。** 快速预览、搜索、标注与拖出素材，保留已有文件夹结构。
 
-[English](README.en.md) · [下载 Alpha](https://github.com/Airkria/AssetHub-Releases/releases/tag/v2.0.0-alpha.4) · [新手配图教程](docs/QUICK_START.md) · [报告问题](https://github.com/Airkria/AssetHub-Releases/issues/new/choose)
+[English](README.en.md) · [下载 Alpha](https://github.com/Airkria/AssetHub-Releases/releases/tag/v2.0.0-alpha.5) · [新手配图教程](docs/QUICK_START.md) · [报告问题](https://github.com/Airkria/AssetHub-Releases/issues/new/choose)
 
-> **当前版本：2.0.0-alpha.4。** 新增视频／GIF 横向滑动预览、视频大小限制与新版图标，首次使用可按[中文配图教程](docs/QUICK_START.md)完成配置。教程截图来自实际桌面应用的隔离模拟环境。
+> **当前版本：2.0.0-alpha.5。** 改善 NAS 滚动、超大 PNG 预览与加载反馈，统一各布局封面和图标，首次使用可按[中文配图教程](docs/QUICK_START.md)完成配置。教程截图来自实际桌面应用的隔离模拟环境。
 
 ## 下载与安装
 
-- 当前公开版本：**2.0.0-alpha.4**，Windows 10/11 x64。
-- 在 Releases 页面下载 `AssetHub_2.0.0-alpha.4_x64-setup.exe` 并安装；同一安装包也可以复制到组内 NAS 分发。
+- 当前公开版本：**2.0.0-alpha.5**，Windows 10/11 x64。
+- 在 Releases 页面下载 `AssetHub_2.0.0-alpha.5_x64-setup.exe` 并安装；同一安装包也可以复制到组内 NAS 分发。
 - 安装包包含模型转换程序，无需配置 Rust、Node.js 或开发目录。
 - 首次运行：选择工作范畴，连接一个已有素材文件夹，确认并开始扫描。已有用户升级后保留当前配置。
 - 首次安装如缺少 Microsoft WebView2，安装器会联网下载运行时。
@@ -40,7 +40,7 @@ Alpha 更新清单：[channels/alpha.json](channels/alpha.json)。它指向具�
 
 - 多人同时修改同一共享库标注的冲突协议尚未完成。首轮请使用个人库，或将共享原始素材设为只读并明确标注维护者。
 - 保存失败的修改目前保留在本次运行中，尚非持久化离线草稿；请恢复连接并重试成功后再退出。
-- 自适配识别会受搜索/筛选影响；包大小为已索引资产合计，不保证等于完整目录占用。
+- 包大小为已索引资产合计，不保证等于完整目录占用；超大非交错 PNG 详情最多 2048px，其他超大格式仍可能需外部打开。
 - 自定义图标保存在本机，跨机器导入配置时可能需要重新导入。
 - 模型格式和材质差异可能影响预览；缺失引用会显示状态，修改贴图后请刷新。
 - 安装包具备更新验证签名，当前未提供 Windows 发布者证书签名；系统可能提示未知发布者。

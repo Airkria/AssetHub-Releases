@@ -33,6 +33,6 @@ The updater verifies signed artifacts. The installer does not currently have a W
 
 Public feedback: [GitHub Issues](https://github.com/Airkria/AssetHub-Releases/issues/new/choose). Include the version, steps, expected and actual results; remove private content before attaching screenshots.
 
-Author: **Airkria** · Private contact: **airkria915793472@gmail.com**.
+Author: **Airkria** · Private contact: **airkria.assethub@gmail.com**.
 
 This repository contains downloads, update manifests and documentation. The source project is maintained separately. Licenses and third-party notices are included with the installer.

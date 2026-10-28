@@ -49,11 +49,11 @@ Alpha 更新清单：[channels/alpha.json](channels/alpha.json)。它指向具�
 ## 反馈
 
 通过 [GitHub Issues](https://github.com/Airkria/AssetHub-Releases/issues/new/choose) 提交版本、复现步骤、预期/实际结果和截图。
-Issues 是公开的，请先移除截图中的保密素材、个人信息和内部路径。私密问题可发送至 **airkria915793472@gmail.com**。
+Issues 是公开的，请先移除截图中的保密素材、个人信息和内部路径。私密问题可发送至 **airkria.assethub@gmail.com**。
 
 ## 作者与许可
 
-作者：**Airkria** · 联系邮箱：**airkria915793472@gmail.com**。
+作者：**Airkria** · 联系邮箱：**airkria.assethub@gmail.com**。
 
 Alpha 免费测试。本仓库维护安装包、更新清单与说明；工程源码在独立仓库维护。
 软件及第三方组件按安装包内附带的 LICENSE 和 THIRD_PARTY_NOTICES.txt 分发。测试版范围与后续功能根据使用反馈调整。

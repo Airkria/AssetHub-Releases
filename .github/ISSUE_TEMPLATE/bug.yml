@@ -5,7 +5,7 @@ labels: ["bug"]
 body:
   - type: markdown
     attributes:
-      value: "Issues 是公开的。截图和日志请先移除保密素材、个人信息和内部路径；私密问题可联系 airkria915793472@gmail.com。"
+      value: "Issues 是公开的。截图和日志请先移除保密素材、个人信息和内部路径；私密问题可联系 airkria.assethub@gmail.com。"
   - type: input
     id: version
     attributes:

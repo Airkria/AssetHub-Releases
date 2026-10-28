@@ -108,7 +108,7 @@
 
 **更新：**「设置 → 关于 → 检查更新」，按提示下载、安装并重启。先完成保存、扫描和模型转换。
 
-**反馈：**到 [GitHub Issues](https://github.com/Airkria/AssetHub-Releases/issues/new/choose) 提交**版本、操作步骤、预期/实际结果和截图**。公开截图请去除私人路径、个人信息和保密素材；私密问题发送至 **airkria915793472@gmail.com**。
+**反馈：**到 [GitHub Issues](https://github.com/Airkria/AssetHub-Releases/issues/new/choose) 提交**版本、操作步骤、预期/实际结果和截图**。公开截图请去除私人路径、个人信息和保密素材；私密问题发送至 **airkria.assethub@gmail.com**。
 
 </details>
 
